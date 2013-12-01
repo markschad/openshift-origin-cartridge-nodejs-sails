@@ -24,7 +24,6 @@ logs
 results
 
 node_modules
-!node_modules/sails
 
 npm-debug.log
 
