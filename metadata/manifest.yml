@@ -96,7 +96,7 @@ Endpoints:
     Backend: ''
     Options:
       health: true
-Install-Build-Required: false
+Install-Build-Required: true
 Version-Overrides:
   '0.6':
     Display-Name: Node.js 0.6
@@ -104,5 +104,5 @@ Version-Overrides:
     - nodejs-0.6
     - nodejs
     License-Url: https://raw.github.com/joyent/node/v0.6/LICENSE
-    Install-Build-Required: false
+    Install-Build-Required: true
 Source-Url: https://github.com/markschad/openshift-origin-cartridge-nodejs-sails/archive/master.zip
