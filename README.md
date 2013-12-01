@@ -10,7 +10,7 @@ This cartridge provides NodeJS support to an OpenShift gear and builds a templat
 From the OpenShift Online web application you may install this gear from the following URL.
 
 ```
-https://github.com/markschad/openshift-origin-cartridge-nodejs-sails/archive/master.zip
+https://raw.github.com/markschad/openshift-origin-cartridge-nodejs-sails/master/metadata/manifest.yml
 ```
 
 ### Command Line
