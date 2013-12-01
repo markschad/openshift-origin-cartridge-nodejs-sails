@@ -14,7 +14,8 @@ The simplest way to install this cartridge is from the [OpenShift Web Applicatio
 If you have [rhc](https://www.openshift.com/developers/rhc-client-tools-install) installed you can run the following command.  This will also copy the template source to your working directory and add the upstream remote.  This is the fastest way to get a new sails template up and running on OpenShift.
 
 ```bash
-rhc app-create mysails https://raw.github.com/markschad/openshift-origin-cartridge-nodejs-sails/master/metadata/manifest.yml```
+rhc app-create mysails https://raw.github.com/markschad/openshift-origin-cartridge-nodejs-sails/master/metadata/manifest.yml
+```
 
 ## About
 
