@@ -7,18 +7,14 @@ This cartridge provides NodeJS support to an OpenShift gear and builds a templat
 
 ### Web Application
 
-From the OpenShift Online web application you may install this gear from the following URL.
-
-```
-https://raw.github.com/markschad/openshift-origin-cartridge-nodejs-sails/master/metadata/manifest.yml
-```
+The simplest way to install this gear is from the [OpenShift Web Application](https://openshift.redhat.com/app/console/application_type/custom?unlock=true&application_type%5Bcartridges%5D=https://raw.github.com/markschad/openshift-origin-cartridge-nodejs-sails/master/metadata/manifest.yml).  Simply enter a name for your application and click Create Application!
 
 ### Command Line
 
 If you have [rhc](https://www.openshift.com/developers/rhc-client-tools-install) installed you can run the following command.
 
 ```bash
-rhc app-create mysails https://github.com/markschad/openshift-origin-cartridge-nodejs-sails/archive/master.zip
+rhc app-create mysails https://raw.github.com/markschad/openshift-origin-cartridge-nodejs-sails/master/metadata/manifest.yml
 ```
 
 ## Further Reading
